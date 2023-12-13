@@ -1,7 +1,7 @@
     html,
     body {
       background-color: black;
-      
+
     }
 
     .Header {
@@ -16,7 +16,7 @@
       width: fit-content;
     }
 
-    .ArticleHeader{
+    .ArticleHeader {
       position: absolute;
       flex-direction: row-reverse;
       top: 10px;
@@ -24,17 +24,15 @@
       display: flex;
       gap: 5%;
     }
-    
-    
 
     .HeaderLink {
       text-decoration: none;
       flex-wrap: wrap;
       color: rgb(68, 68, 136);
       font-size: 19px;
-      
+
     }
-    
+
     .ActiveHeaderLink {
       background-color: #d6d1e4;
       color: rgb(68, 68, 136);
@@ -44,16 +42,16 @@
       font-size: 19px;
     }
 
-    .LoginContainer{
+    .LoginContainer {
       height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(to bottom right , #20211f 0%, #20211f 30%, white 30%, white 70%,  #20211f 70%, #20211f 100%  );
+      background: linear-gradient(to bottom right, #20211f 0%, #20211f 30%, white 30%, white 70%, #20211f 70%, #20211f 100%);
       position: relative;
     }
 
-    .LoginDiv{
+    .LoginDiv {
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -66,25 +64,26 @@
       background-color: rgb(217, 215, 215);
     }
 
-    .LoginDiv input[type="text"], input[type="password"]{
+    .LoginDiv input[type="text"],
+    input[type="password"] {
       border: none;
       box-sizing: border-box;
       border-bottom: 2px solid black;
       background-color: rgb(217, 215, 215);
       outline: none;
     }
-    
 
-    .LoginDiv input[type="button"]{
+
+    .LoginDiv input[type="button"] {
       border: none;
       width: 100%;
     }
 
-    .SwitchLogin:hover{
+    .SwitchLogin:hover {
       cursor: pointer;
     }
 
-    .HomeContainer{
+    .HomeContainer {
       background-color: black;
     }
 
@@ -108,7 +107,7 @@
     #HomepageRow h1 {
       font-size: 100px;
       color: #c22822;
-      
+
 
     }
 
@@ -144,18 +143,12 @@
       gap: 15px;
     }
 
-    .ToArticleLink{
+    .ToArticleLink {
       text-decoration: none;
       color: #bc2f2f;
       font-size: 18px;
-      
+
     }
-
-    
-
-
-
-
 
     .HomepageArticlesRow:nth-of-type(odd) {
       flex-direction: row-reverse;
@@ -188,8 +181,8 @@
       color: inherit;
     }
 
-    .Toast a{
-      color: black ;
+    .Toast a {
+      color: black;
     }
 
     #article-title-row {
@@ -207,10 +200,10 @@
 
     }
 
-    .article-title-image{
+    .article-title-image {
       height: 100vh;
       object-fit: cover;
-      object-position: left bottom; 
+      object-position: left bottom;
     }
 
     .article-title-col h1 {
@@ -248,9 +241,9 @@
       text-align: justify;
     }
 
-    
 
-    .inline-article-image{
+
+    .inline-article-image {
       width: 100%;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -275,7 +268,7 @@
 
       background-color: black;
       min-height: 100vh;
-      
+
     }
 
     .timeline-title {
@@ -298,7 +291,7 @@
     .timeline-title h1 {
       font-size: 70px;
       color: rgb(241, 235, 235);
-      
+
     }
 
     .timeline-title p {
@@ -404,9 +397,9 @@
 
     @media screen and (max-width: 768px) {
 
-      
 
-      .timeline-image-content::after{
+
+      .timeline-image-content::after {
         width: 80%;
       }
 
@@ -444,52 +437,52 @@
         flex-direction: column-reverse;
       }
 
-      .comment-section{
+      .comment-section {
         padding-top: 15%;
       }
 
-      .article-content{
+      .article-content {
         text-align: left;
         padding: 0px;
       }
 
-      .sticky-md{
+      .sticky-md {
         height: auto;
 
       }
 
-      .comment-content{
+      .comment-content {
         border-radius: 5px;
       }
 
 
-      
+
     }
 
-    .comment-section{
+    .comment-section {
       padding-top: 5%;
       padding-left: 5%;
       width: 100%;
     }
 
-    .comments{
+    .comments {
       display: flex;
       flex-direction: column;
       max-height: 90vh;
       overflow: scroll;
     }
 
-    .single-comment{
+    .single-comment {
       float: left;
       display: flex;
       padding: 10px 10px 10px 0px;
       align-items: center;
       width: 85%;
-      
-      
+
+
     }
 
-    .comment-circle{
+    .comment-circle {
       background-color: #150A8D;
       width: 20px;
       height: 5px;
@@ -497,58 +490,60 @@
       flex-shrink: 0;
       margin-right: 5px;
     }
-    .comment-content{
+
+    .comment-content {
       background-color: #dadade;
       border-radius: 5px;
       padding: 5px 5px 5px 20px;
       width: 90%;
-      
+
     }
 
-    .comment-info{
+    .comment-info {
       display: flex;
       align-items: baseline;
       gap: 10px;
     }
 
-    .comment-text{
+    .comment-text {
       width: 70%;
       height: 40px;
       border: 3px solid;
       margin-right: 5px;
-    
+
     }
-    .comment-button{
-      
+
+    .comment-button {
+
       background-color: black;
       border: none;
       color: white;
       height: 40px;
-      width: 80px;        
+      width: 80px;
     }
 
-    .footer{
+    .footer {
       background-color: black;
       width: 100%;
-      
-      
+
+
     }
 
-    .footer-row{
+    .footer-row {
       border-bottom: bisque solid;
       padding-bottom: 5px;
     }
 
-    .footer-title{
+    .footer-title {
       color: white;
       padding-left: 10px;
       padding-top: 10px;
     }
 
-    .text{
+    .text {
       margin-top: 13px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size:medium;
+      font-size: medium;
     }
 
     .text a {
@@ -561,10 +556,247 @@
       color: red;
     }
 
-    .last-text{
+    .last-text {
       text-align: center;
       padding-top: 10px;
       color: rgb(196, 196, 196);
     }
 
 
+
+    .quizContainer {
+      min-height: 100vh;
+      background-color: #20211f;
+      position: relative;
+    }
+
+    .quizPlayContainer {
+      padding-bottom: 55px;
+    }
+
+
+    .quiz-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .QuizQuestionsDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 75vh;
+      gap: 20px;
+
+    }
+
+    .QuizSingleQuestion {
+      height: 30vh;
+      width: 30vw;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      transition: all 0.2s;
+    }
+
+
+    .QuizSingleQuestion p {
+      font-size: large;
+    }
+
+    .QuizSingleQuestion.color1 {
+      background-color: #ff7f50;
+    }
+
+    .QuizSingleQuestion.color2 {
+      background-color: #66cdaa;
+      margin-bottom: 10px;
+    }
+
+    .QuizSingleQuestion.color3 {
+      background-color: #6495ed;
+    }
+
+    .QuizSingleQuestion.color4 {
+      background-color: #b27065;
+    }
+
+    .QuizSingleQuestion:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+
+    .QuizTitle {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 50px;
+      margin-bottom: 0;
+    }
+
+    .QuizH2Div {
+      display: flex;
+      justify-content: space-evenly;
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      background-color: #20211f;
+      padding: 10px;
+    }
+
+    .QuizH2Div.QuizInfo {
+      margin-top: auto;
+    }
+
+    .QuizInfo h1,
+    .QuizInfo h2 {
+      color: rgb(203, 202, 202);
+      text-align: center;
+      margin: 0;
+    }
+
+
+    @media screen and (max-width: 768px) {
+      .QuizSingleQuestion {
+        width: 75vw;
+        height: 15vh;
+        min-height: 90px;
+
+      }
+
+      .QuizH2Div {
+        position: absolute;
+        background-color: transparent;
+      }
+
+
+
+      .QuizTitle {
+        flex-direction: column;
+        padding-bottom: 5px;
+        gap: 0;
+      }
+
+      .QuizH2Div {
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .QuizQuestionsDiv {
+        min-height: 55vh;
+        gap: 10px;
+      }
+    }
+
+
+
+    .QuizStart {
+
+      background: linear-gradient(to bottom right, #20211f 0%, #20211f 30%, white 30%, white 70%, #20211f 70%, #20211f 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .QuizStartCol {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .QuizStartCol img {
+      width: 80%;
+      max-width: 80%;
+      height: auto;
+
+
+    }
+
+    .QuizStartDiv {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .QuizStartDiv p {
+      color: #992624;
+    }
+
+    .QuizStartText {
+      color: #9B1F1C;
+      font-size: large;
+    }
+
+    .QuizStartText:hover {
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 768px) {
+      .QuizStartCol {
+        height: auto;
+
+      }
+
+      .QuizStartCol img {
+        margin-top: 15px;
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+      }
+
+      .QuizStartDiv {
+        width: 100%;
+        align-items: flex-start;
+        padding-top: 15px;
+        padding-left: 8%;
+
+
+      }
+    }
+
+    .Popup {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(41, 41, 41, 0.7);
+      z-index: 999999;
+    }
+
+    .PopupContent {
+      height: 80vh;
+      width: 65vw;
+      background-color: #E9E5DE;
+      opacity: 75%;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+      align-items: center;
+      position: relative;
+    }
+    .CloseButton {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .CloseButton:hover{
+      cursor: pointer;
+    }
+
+
+
+    

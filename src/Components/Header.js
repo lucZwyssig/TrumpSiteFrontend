@@ -7,7 +7,7 @@ function Header() {
         <div className="Header">
             <a href="/" className={location.pathname === '/' ? 'ActiveHeaderLink' : 'HeaderLink'}>Home</a>
             <a href="/timeline" className={location.pathname === '/timeline' ? 'ActiveHeaderLink' : 'HeaderLink'}>Timeline</a>
-            <a href="/login" className={location.pathname === '/login' || location.pathname === '/register' ? 'ActiveHeaderLink' : 'HeaderLink'}>Login</a>
+            <a href="/quiz" className={location.pathname === '/quiz' ? 'ActiveHeaderLink' : 'HeaderLink'}>Quiz</a>
         </div>
     );
 }; export default Header;
