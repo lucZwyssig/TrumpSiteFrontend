@@ -1,8 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "../App.css";
 import { useParams } from "react-router";
-import { useEffect, useState, useRef } from "react";
-import axios from "axios";
+import { useEffect, useState } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Header from "../Components/Header";
 import { ToastContainer, toast } from 'react-toastify';

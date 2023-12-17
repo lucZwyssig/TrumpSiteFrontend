@@ -13,6 +13,7 @@ import Article1 from "./Pages/Article1";
 import Article2 from "./Pages/Article2";
 import Article3 from "./Pages/Article3";
 import Quiz from "./Pages/Quiz";
+import Sources from "./Pages/Sources";
  
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
   {
     path: "/quiz",
     element: <Quiz />
+  },
+  {
+    path: "/sources",
+    element: <Sources/>
   }
 ]);
  

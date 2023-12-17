@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Trump from "../Images/TrumpYoung.png";
+import Trump from "../Images/TrumpYoung.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Header from "../Components/Header";
 import { IoClose } from "react-icons/io5";
@@ -19,64 +19,52 @@ function Quiz() {
   const questions = [
     {
       id: 1,
-      question: "This is a really long question to test of the css of the quiz ",
-      correctAnswer: "correctOne",
-      wrongAnswers: ["wrong1question1", "wrong2question1", "wrong3question1"],
+      question: "How many Followers did Trump have on Twitter before he was banned?",
+      correctAnswer: "89 million",
+      wrongAnswers: ["96 million", "54 million", "112 million"],
     },
     {
       id: 2,
-      question: "question2",
-      correctAnswer: "correctTwo",
-      wrongAnswers: ["wrong1question2", "wrong2question2", "wrong3question2"],
+      question: "Trump distrusts the Media and famously calls it…",
+      correctAnswer: "Fake News",
+      wrongAnswers: ["Misinput", "Bad news", "Misinformation"],
     },
     {
       id: 3,
-      question: "question3",
-      correctAnswer: "correctThree",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
+      question: "How many times was Donald Trump impeached?",
+      correctAnswer: "2",
+      wrongAnswers: ["1", "3", "4"],
     },
     {
       id: 4,
-      question: "question4",
-      correctAnswer: "correctFour",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
+      question: "What was one of the reasons for Trump's second impeachment?",
+      correctAnswer: "The Capitol hill attack",
+      wrongAnswers: ["Bad response to Covid-19 pandemic", "Spreading misinformation", "Involvement in a foreign conspiracy"],
     },
     {
       id: 5,
-      question: "question5",
-      correctAnswer: "correctFive",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
+      question: "How many wives has Trump had?",
+      correctAnswer: "3",
+      wrongAnswers: ["4", "1", "2"],
     },
     {
       id: 6,
-      question: "question6",
-      correctAnswer: "correctSix",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
+      question: "What was the name of Trump's tv-show?",
+      correctAnswer: "The Apprentice",
+      wrongAnswers: ["Executive Apprentice", "The Executive Challenge", "The Profit"],
     },
     {
       id: 7,
-      question: "question7",
-      correctAnswer: "correctSeven",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
+      question: "What is Donald Trump's middle name?",
+      correctAnswer: "John",
+      wrongAnswers: ["Johann", "James", "Jack"],
     },
     {
       id: 8,
-      question: "question8",
-      correctAnswer: "correctEight",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
-    },
-    {
-      id: 9,
-      question: "question9",
-      correctAnswer: "correctNine",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
-    },
-    {
-      id: 10,
-      question: "question10",
-      correctAnswer: "correctTen",
-      wrongAnswers: ["wrong1", "wrong2", "wrong3"],
-    },
+      question: "What famous phrase did Trump use in his tv-show",
+      correctAnswer: "You're fired!",
+      wrongAnswers: ["You're hired!", "You've got the edge!", "You're the contender!"],
+    }
   ];
 
   function start() {
@@ -232,6 +220,7 @@ function Quiz() {
                 <div className="QuizStartDiv">
                   <h2>Trump quiz</h2>
                   <p>How well did you pay attention to the articles?</p>
+                  <p style={{fontSize: "small", color: "black"}}>Illustration: [Trump and Flag(Getty Images)]</p>
                   <p className="QuizStartText" onClick={() => setPlay(true)}>play quiz <FaLongArrowAltRight /></p>
 
                 </div>

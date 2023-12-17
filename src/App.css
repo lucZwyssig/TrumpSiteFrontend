@@ -42,46 +42,6 @@
       font-size: 19px;
     }
 
-    .LoginContainer {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(to bottom right, #20211f 0%, #20211f 30%, white 30%, white 70%, #20211f 70%, #20211f 100%);
-      position: relative;
-    }
-
-    .LoginDiv {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-      gap: 30px;
-      width: fit-content;
-      height: fit-content;
-      padding: 5% 5% 8% 5%;
-      border-radius: 10px;
-      background-color: rgb(217, 215, 215);
-    }
-
-    .LoginDiv input[type="text"],
-    input[type="password"] {
-      border: none;
-      box-sizing: border-box;
-      border-bottom: 2px solid black;
-      background-color: rgb(217, 215, 215);
-      outline: none;
-    }
-
-
-    .LoginDiv input[type="button"] {
-      border: none;
-      width: 100%;
-    }
-
-    .SwitchLogin:hover {
-      cursor: pointer;
-    }
 
     .HomeContainer {
       background-color: black;
@@ -167,6 +127,9 @@
     .HomepageArticleImageCol {
       display: flex;
       justify-content: center;
+    }
+    .imageDescription{
+      font-size: small;
     }
 
 
@@ -737,28 +700,7 @@
       cursor: pointer;
     }
 
-    @media screen and (max-width: 768px) {
-      .QuizStartCol {
-        height: auto;
-
-      }
-
-      .QuizStartCol img {
-        margin-top: 15px;
-        width: 100%;
-        max-width: 90%;
-        height: auto;
-      }
-
-      .QuizStartDiv {
-        width: 100%;
-        align-items: flex-start;
-        padding-top: 15px;
-        padding-left: 8%;
-
-
-      }
-    }
+    
 
     .Popup {
       width: 100%;
@@ -796,6 +738,70 @@
     .CloseButton:hover{
       cursor: pointer;
     }
+    
+    .SourceTitle{
+      background-color: #20211f;
+      justify-content: flex-start;
+      padding-bottom: 15px;
+    
+    }
+    .SourceTitle h1{
+      padding-top: 55px;
+      padding-left: 35px;
+      color:#992624;
+    }
+
+    .SourceTitleCol{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center
+    }
+
+    .SourceCol{
+      padding: 20px;
+    }
+
+    .SourceCol li{
+      max-width: 80%;
+    }
+
+    .ToSource{
+      color: #6f7078;
+    }
+
+    .BacktrackLink{
+      color: #992624;
+    }
+
+    @media screen and (max-width: 768px) {
+      .QuizStartCol {
+        height: auto;
+
+      }
+
+      .QuizStartCol img {
+        margin-top: 15px;
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+      }
+
+      .QuizStartDiv {
+        width: 100%;
+        align-items: flex-start;
+        padding-top: 15px;
+        padding-left: 8%;
+
+
+      }
+
+      
+    }
+
+    .imageDescription{
+      font-size: small;
+    }
+
 
 
 

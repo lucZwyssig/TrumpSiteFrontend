@@ -17,6 +17,9 @@ function Footer() {
                 <Col>
                     <p className="text" ><a href="/timeline">Timeline</a></p>
                 </Col>
+                <Col>
+                    <p className="text"><a href="/sources">Sources</a></p>
+                </Col>
             </Row>
             <Row className="last-row">
                 <p className="last-text">KBW Winterthur 2023</p>
