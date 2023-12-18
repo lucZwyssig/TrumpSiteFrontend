@@ -3,7 +3,6 @@ import "../App.css";
 import { useState, useEffect } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Header from "../Components/Header";
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from "../Components/Footer";
 import twitter from "../Images/twitter.jpg";
@@ -13,12 +12,17 @@ function Article3() {
         {
             "id": 1,
             "title": "Trump Acquitted… Again",
-            "text": "The former president of the United States, Donald John Trump, has been impeached twice but was also acquitted for the second time last January.\r\nIn US-law, the process of impeachment occurs when the House of Representatives, comprised of members from every state, decides to charge the current president or vice president for alleged misconduct. Since Trump had already left office, this was also the first time an impeachment trial has been held against a former president. Donald Trump is, until now, the only US president to be impeached twice. The other presidents were Andrew Johnson in 1868 and Bill Clinton in 1998.\r\nThis time around, Trump has been charged with incitement of insurrection. The reason for the impeachment was, on the one hand, the Capitol attack on January 6, about a month beforehand. Thousands of supporters of the former president felt an urge to rebel against the results of the presidential election, which Trump lost. They also were shouting “hang Mike Pence”, since he was overseeing Biden’s election process. A total of five people died during the events, and over 130 were injured. This was the first time the Capitol had ever been breached by rioters. \r\nThe other reason for his impeachment was a phone call he had had with Secretary of State Brad Raffensperger (oversees elections in the state of Georgia). During this phone call, he pressured Raffensperger to investigate Georgia’s election results, even after being told multiple times that the results had been correct.\r\nUltimately however, Trump was acquitted in a 57-43 vote, 10 short of the needed two-thirds to have him convicted. Today Trump is currently running for president again, which would not have been possible had he been convicted.\r\nSources: Wikipedia\r\n",
+            "text": "The former president of the United States, Donald John Trump, has been impeached twice but was also acquitted for the second",
         },
         {
             "id": 2,
             "title": "Trump, the controversial president",
-            "text": "Donald Trump, the 45th President of the United States, can be described as one of the most controversial leaders in the nation's history. While his actions have been deemed idiotic and incomprehensible by some, others are of the opinion that he was a great leader and are fans of his political doings.\r\nWe first must look at the US political system to understand the political divide. The US Parliament is made up of two major political parties that control almost all seats. Currently, 48 of the 100 seats in the United States Senate are occupied by the Democratic Party, 49 by the Republican Party, and the remaining 3 by independent politicians. This is a stark contrast to the Swiss political system, where the seats are divided between many more parties. With there being only two parties in the United States, they tend to have completely different ideas and motives. Consequently, the current US president is usually disliked or disapproved of by a large part of the country, while the other half usually supports him.\r\nHowever, this still leaves us with the question of why Trump stands out as being so controversial. Trump has put in place several policies, the most controversial of which have to do with immigrants. One of his key executive orders was the travel ban to the US from several Muslim countries, commonly referred to as the “Muslim Ban”. The decision triggered widespread backlash, both domestic and international. \r\nAnother of Trump’s controversial orders was the “zero tolerance policy” imposed on immigrants crossing into the United States from the Mexican border. He would also announce an increase in spending on border control, which would also lead to the famous 'Wall,' which started construction in 2018 along the US-Mexican border but has since been halted by President Joe Biden.\r\nIn summary, Trump’s controversial policies, having to do with immigration but also with further topics (including the US’s withdrawal from the Paris agreement on the response to climate change), have made him stand out as an unorthodox and disruptive executive leader.\r\nSources: Wikipedia, Washington Post\r\n",
+            "text": "Donald Trump, the 45th President of the United States, can be described as one of the most controversial leaders in the nation",
+        },
+        {
+            "id": 4,
+            "title": "Donald Trump in «The Apprentice»",
+            "text": "“The Apprentice “, a reality TV show, which first aired in 2004, shaped the image of Donald Trump as a businessman and leader. In,"
         }
     ]);
 
@@ -39,7 +43,6 @@ function Article3() {
 
     return (
         <Container fluid>
-            <ToastContainer /> {/* possibly change appearance */}
             <Row id="article-title-row" style={{ marginLeft: "-12px", marginRight: "-12px" }}>
 
                 <Col className="col-12 col-md-6 article-title-col" >

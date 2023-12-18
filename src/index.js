@@ -14,6 +14,7 @@ import Article2 from "./Pages/Article2";
 import Article3 from "./Pages/Article3";
 import Quiz from "./Pages/Quiz";
 import Sources from "./Pages/Sources";
+import Article4 from "./Pages/Article4";
  
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "/sources",
     element: <Sources/>
+  },
+  {
+    path: "/article/4",
+    element: <Article4/>
   }
 ]);
  
