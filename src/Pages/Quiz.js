@@ -220,8 +220,8 @@ function Quiz() {
                 <div className="QuizStartDiv">
                   <h2>Trump quiz</h2>
                   <p>How well did you pay attention to the articles?</p>
-                  <p style={{fontSize: "small", color: "black"}}>Illustration: [Trump and Flag(Getty Images)]</p>
                   <p className="QuizStartText" onClick={() => setPlay(true)}>play quiz <FaLongArrowAltRight /></p>
+                  <p style={{fontSize: "small", color: "black"}}>Illustration: [Trump and Flag(Getty Images)]</p>
 
                 </div>
               </Col>

@@ -71,7 +71,7 @@ function Article3() {
                             <p>Furthermore, many of Trump's followers see him as a victim of the United States political system and still stand with him. They see the accusations against him as a desperate attempt by the Democratic Party, or more generally,by all non-Trump supporters, to not only get him out of office but also discredit him. </p>
                             <p>Trump is also known to deeply distrust the media, famously calling it 'fake news.' This distrust has clearly carried over to his followers and has also been aided by right-winged news networks; the most famous and influential one is Fox News Network.</p>
                             <p>Nowadays, Trump isn’t posting anything on Twitter, or X, as it's called now, but is instead expressing his opinions on his own platform, 'Truth Social.' Whether or not this will play a deciding role in the current election is yet to be determined.</p>
-                            <p>Sources: Wikipedia, CNN</p>
+                            <p>Source: [Trump Twitter (Wikipedia)]</p>
                         </h4>
                     </div>
                 </Col>

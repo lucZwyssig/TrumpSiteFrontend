@@ -9,13 +9,13 @@ function Footer() {
                     <h3 className="footer-title">Donald Trump</h3>
                 </Col>
                 <Col>
-                    <p className="text"><a href="/quiz">Quiz</a></p>
-                </Col>
-                <Col>
                     <p className="text"><a href="/">Home</a></p>
                 </Col>
                 <Col>
                     <p className="text" ><a href="/timeline">Timeline</a></p>
+                </Col>
+                <Col>
+                    <p className="text"><a href="/quiz">Quiz</a></p>
                 </Col>
                 <Col>
                     <p className="text"><a href="/sources">Sources</a></p>

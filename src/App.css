@@ -107,7 +107,11 @@
       text-decoration: none;
       color: #bc2f2f;
       font-size: 18px;
-
+      transition: all 0.15s;
+    }
+    .ToArticleLink:hover {
+      cursor: pointer;
+      color: rgb(123, 50, 50);
     }
 
     .HomepageArticlesRow:nth-of-type(odd) {
@@ -694,10 +698,12 @@
     .QuizStartText {
       color: #9B1F1C;
       font-size: large;
+      transition: all 0.1s;
     }
 
     .QuizStartText:hover {
       cursor: pointer;
+      transform: scaleX(1.05);
     }
 
     
@@ -761,9 +767,7 @@
       padding: 20px;
     }
 
-    .SourceCol li{
-      max-width: 80%;
-    }
+    
 
     .ToSource{
       color: #6f7078;

@@ -22,7 +22,7 @@ function Home() {
       "title": "Trump Acquitted… Again",
       "text": "The former president of the United States, Donald John Trump, has been impeached twice but was also acquitted for the second time last January.",
       "image_url": capitol,
-      "created_at": "2020-01-01T00:00:00",
+      "created_at": "2023-11-25T00:00:00",
       "last_updated_at": "2023-11-25T00:00:00",
       "image_source": "[Capitol building (Getty Images)]"
     },
@@ -32,8 +32,8 @@ function Home() {
       "title": "Trump, the controversial president",
       "text": "Donald Trump, the 45th President of the United States, can be described as one of the most controversial leaders in the nation's history.",
       "image_url": wall,
-      "created_at": "2020-02-01T00:00:00",
-      "last_updated_at": "2023-11-20T00:00:00",
+      "created_at": "2023-11-27T00:00:00",
+      "last_updated_at": "2023-11-28T00:00:00",
       "image_source": "[Trump Wall (Flickr)]"
     },
     {
@@ -42,8 +42,8 @@ function Home() {
       "title": "Trump and social media",
       "text": "A well-known fact about Donald Trump is that he is, or at least was, very active on the social media platform Twitter.",
       "image_url": twitter,
-      "created_at": "2020-04-01T00:00:00",
-      "last_updated_at": "2023-11-23T00:00:00",
+      "created_at": "2023-11-28T00:00:00",
+      "last_updated_at": "2023-11-28T00:00:00",
       "image_source": "[Trump Twitter (Axios Media)]"
     },
     {
@@ -65,7 +65,7 @@ function Home() {
         <div>
           <h1>Trump</h1>
           <h2 >Luc Zwyssig, Peter Schreivogel, Tarek Schütz, Sujan Saravana</h2>
-          <p >[Homepage Image (Getty Images)]</p>
+          <p style={{color: "white"}}>[Homepage Image (Getty Images)]</p>
         </div>
       </Row>
       <svg viewBox="0 0 1440 320" id="HomepageSvg">
@@ -90,7 +90,8 @@ function Home() {
               <p className="HomepageArtictrleText">{article.text.slice(0, 300)}...</p>
               <div>
                 <a href={`/article/${article.id}`} className="ToArticleLink" > to article <FaLongArrowAltRight /></a>
-                <p>Last updated at: {formatLastUpdatedAt(article.last_updated_at)}</p>
+                <p>Created on: {formatLastUpdatedAt(article.created_at)}<br/></p>
+                <p></p>
               </div>
             </Col>
             <Col className="col-12 col-md-6 HomepageArticleImageCol">

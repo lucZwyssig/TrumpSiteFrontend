@@ -48,7 +48,7 @@ function Article1() {
                     <Header />
                     
                     <h1>Trump Acquitted… Again</h1>
-                    <p style={{fontSize: "small"}}>Illustration: [Capitol building (Getty Images)]</p>
+                    <p style={{fontSize: "small", color: "white"}}>Illustration: [Capitol building (Getty Images)]</p>
                 </Col>
                 <Col className="col-12 col-md-6 article-title-col" >
                     <img src={capitol} alt="Cat" className="article-title-image" />
@@ -68,7 +68,7 @@ function Article1() {
                             <p>This time around, Trump has been charged with incitement of insurrection. The reason for the impeachment was, on the one hand, the Capitol attack on January 6, about a month beforehand. Thousands of supporters of the former president felt an urge to rebel against the results of the presidential election, which Trump lost. They also were shouting “hang Mike Pence”, since he was overseeing Biden’s election process. A total of five people died during the events, and over 130 were injured. This was the first time the Capitol had ever been breached by rioters.</p>
                             <p>The other reason for his impeachment was a phone call he had had with Secretary of State Brad Raffensperger (oversees elections in the state of Georgia). During this phone call, he pressured Raffensperger to investigate Georgia’s election results, even after being told multiple times that the results had been correct.</p>
                             <p>Ultimately however, Trump was acquitted in a 57-43 vote, 10 short of the needed two-thirds to have him convicted. Today Trump is currently running for president again, which would not have been possible had he been convicted.</p>
-                            <p>Sources: Wikipedia</p>
+                            <p>Source: [Trump Impeachment(Wikipedia)]</p>
                         </h4>
                     </div>
                 </Col>
