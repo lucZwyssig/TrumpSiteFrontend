@@ -69,7 +69,7 @@ function Article4() {
                             <p>Despite the success of “The Apprentice”, the show was not without controversy. Some critics argument that the depiction of Trump as a successful businessman distorted the reality and overemphasized his success. In addition to that Trump was often criticized for his controversial decisions and comments in the show, which lead to discussions about his leadership style.</p>
                             <p>After his success in “The Apprentice”, Trump entered the political Stage and was later elected as the 45. President of the United States. Some Analysts argue that his presence in the show influenced his political Career, by further strengthening his image as a successful leader and decision-maker.</p>
                             <p>The participation from Donald Trump in “The Apprentice” without doubt contributed to forming his public image. The show helped to establish him as a successful businessman and leader, but it was also accompanied by controversy and criticism. Unrelated to the opinions about Trump, “The Apprentice” remains as an important stepping stone of him becoming the 45. President of the United States of America.</p>
-                            <p>Sources: Wikipedia</p>
+                            <p>Source: [Trump Apprentice(Fortune)], [Trump Apprentice(Wikipedia)]</p>
                         </h4>
                     </div>
                 </Col>

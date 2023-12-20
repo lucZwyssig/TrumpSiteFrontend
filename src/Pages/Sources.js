@@ -66,6 +66,9 @@ function Sources() {
                         <li>
                             <p><a href="/timeline#impeachment" className="BacktrackLink">[Trump Impeachment(Getty Images)]</a>Kamm, Nicholas; "US-POLITICS-TRUMP-IMPEACHMENT". Febuary 2020. Accessed on December 17 2023, <a className="ToSource" href="https://www.gettyimages.ch/detail/nachrichtenfoto/president-donald-trump-holds-up-a-newspaper-that-nachrichtenfoto/1199071003">https://www.gettyimages.ch/detail/nachrichtenfoto/president-donald-trump-holds-up-a-newspaper-that-nachrichtenfoto/1199071003</a></p>
                         </li>
+                        <li>
+                            <p><a href="/article/4" className="BacktrackLink">[Trump Apprentice(Fortune)]</a>Kranish, Michael and Fisher, Marc; "The Inside Story of How ‘The Apprentice’ Rescued Donald Trump". September 1026. Accessed on November 23 2023, <a className="ToSource" href="https://fortune.com/2016/09/08/donald-trump-the-apprentice-burnett/amp">https://fortune.com/2016/09/08/donald-trump-the-apprentice-burnett/amp</a></p>
+                        </li>
                         <h1>
                             L
                         </h1>
@@ -116,7 +119,10 @@ function Sources() {
                             W
                         </h1>
                         <li>
-                            <p><a href="/article/2" className="Backtracklink">[Trump Controversy(Wikipedia)]</a>Wikipedia Foundation;
+                            <p><a href="/article/4" className="BacktrackLink">[Trump the Apprentice(Wikipedia)]</a>Wikipedia Foundation; "The Apprentice (American TV series)". May 2007. Accessed on November 23 2023, <a className="ToSource" href="https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)"></a>https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)</p>
+                        </li>
+                        <li>
+                            <p><a href="/article/2" className="BacktrackLink">[Trump Controversy(Wikipedia)]</a>Wikipedia Foundation;
                                 <ul>
                                     <li>
                                         "Trump wall". February 2019. Accessed on November 28 2023, <a className="ToSource" href="https://en.wikipedia.org/wiki/Trump_wall">https://en.wikipedia.org/wiki/Trump_wall</a>
