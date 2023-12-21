@@ -150,7 +150,7 @@ function Sources() {
                             <p><a href="/article/4" className="BacktrackLink">[Trump the Apprentice(Wikipedia)]</a>Wikipedia Foundation; "The Apprentice (American TV series)". May 2007. Accessed on November 23 2023, <a className="ToSource" href="https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)">https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)</a>.</p>
                         </li>
                         <li>
-                            <p><a href="/article/3" className="Backtracklink">[Trump Twitter (Wikipedia)]</a>Wikipedia Foundation; "Social media use by Donald Trump". May 2017. Accessed on November 28 2023, <a className="ToSource" href="https://en.wikipedia.org/wiki/Social_media_use_by_Donald_Trump">https://en.wikipedia.org/wiki/Social_media_use_by_Donald_Trump</a>.</p>
+                            <p><a href="/article/3" className="BacktrackLink">[Trump Twitter (Wikipedia)]</a>Wikipedia Foundation; "Social media use by Donald Trump". May 2017. Accessed on November 28 2023, <a className="ToSource" href="https://en.wikipedia.org/wiki/Social_media_use_by_Donald_Trump">https://en.wikipedia.org/wiki/Social_media_use_by_Donald_Trump</a>.</p>
                         </li>
                         <h1 style={{textDecoration: "underline"}}>Sound</h1>
                         <h2>
